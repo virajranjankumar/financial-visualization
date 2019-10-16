@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./style.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="368.42pt" height="202.225pt" viewBox="0 0 368.42 202.225" version="1.1">
+<defs>
+  <style>
+    /* <![CDATA[ */
+    text {
+  font-family: sans-serif;
+  font-size: 0.7em;
+  fill:rgb(50%,50%,50%);
+  fill-opacity:1;
+}
+
+text.heading {
+  fill: rgb(0%,0%,0%);
+}
+
+line {
+  fill:none;
+  stroke-linecap:butt;
+  stroke-linejoin:miter;
+  stroke-opacity:1;
+  stroke-miterlimit:10;
+  stroke:rgb(0%,0%,0%);
+}
+
+.box {
+  stroke:none;
+  fill-rule:nonzero;
+  fill-opacity:1;
+}
+
+.low {    fill:rgb(0%,39.099121%,66.999817%); }
+.medium { fill:rgb(19.999695%,70.399475%,91.999817%); }
+.high {   fill:rgb(89.99939%,95.199585%,100%); }
+
+.box {
+  width:5.519531px;
+  height:4.335938px;
+}
+
+.column {
+  fill:rgb(0%,62.998962%,89.99939%);
+  width: 20.09375px;
+}
+
+.row {
+  height: 20.093750px;
+}
+
+.categoryAverageLine {
+  stroke-width:0.5;
+  stroke-dasharray:0.75,1;
+}
+
+.categoryAverageHyphen {
+  stroke-width:0.25;
+}
+
+.categoryAverageLabel {
+  font-size:0.37em;
+  fill: rgb(59.999084%,59.999084%,59.999084%);
+}
+
+.seperator {
+  stroke-width:0.3;
+  stroke:rgb(59.999084%,59.999084%,59.999084%);
+}
+
+.characteristics {
+  font-size:0.55em;
+}
+
+.resultLabel {
+  writing-mode: tb;
+  font-size:0.55em;
+}
+
+.subCharacteristics {
+  font-size: 0.3em;
+}
+        /* ]]> */
+  </style>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask3">
+  <g filter="url(#alpha)">
+    <rect x="0" y="0" width="368.42" height="202.225" style="fill:rgb(0%,0%,0%);fill-opacity:0.399994;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip8">
+  <path d="M 0.351562 0.152344 L 80.851562 0.152344 L 80.851562 80.652344 L 0.351562 80.652344 Z M 0.351562 0.152344 "/>
+</clipPath>
+<clipPath id="clip7">
+  <rect width="81" height="81"/>
+</clipPath>
+<g id="surface16" clip-path="url(#clip7)">
+  <g clip-path="url(#clip8)" clip-rule="nonzero">
+   <path style="fill:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 136.601562 146.822656 L 216.601562 146.822656 L 216.601562 66.822656 L 136.601562 66.822656 Z M 136.601562 146.822656 " transform="matrix(1,0,0,-1,-136,147.225)"/>
+  </g>
+</g>
+<mask id="mask7">
+  <g filter="url(#alpha)">
+    <rect x="0" y="0" width="368.42" height="202.225" style="fill:rgb(0%,0%,0%);fill-opacity:0.399994;stroke:none;"/>
+  </g>
+</mask>
+<clipPath id="clip16">
+  <path d="M 0.25 0.253906 L 80.75 0.253906 L 80.75 80.753906 L 0.25 80.753906 Z M 0.25 0.253906 "/>
+</clipPath>
+<clipPath id="clip15">
+  <rect width="81" height="81"/>
+</clipPath>
+<g id="surface24" clip-path="url(#clip15)">
+  <g clip-path="url(#clip16)" clip-rule="nonzero">
+    <path style="fill:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 228.5 146.721094 L 308.5 146.721094 L 308.5 66.721094 L 228.5 66.721094 Z M 228.5 146.721094 " transform="matrix(1,0,0,-1,-228,147.225)"/>
+  </g>
+</g>
+</defs>
+<g id="surface1">
+  <text  x="10" y="20" class="heading">Security Profile</text>
+  <g>
+    <text x="137.5447" y="44.7904" class="heading">Characteristics</text>
+    <g>
+      <text x="67.4541" y="69.1693" class="characteristics">Asset Allocation</text>
+      <line class="seperator" x1="-0.0019" y1="-0.00193125" x2="75.298881" y2="-0.00193125" transform="translate(60.9394,75.4551) scale(1,-1)"/>
+      <g>
+        <g>
+          <text x="39.6958" y="62.4247" class="subCharacteristics">Stocks</text>
+          <rect class="box low" x="55.140625" y="58.628906" />
+        </g>
+        <g>
+          <text x="40.7623" y="67.4247" class="subCharacteristics">Bonds</text>
+          <rect class="box medium" x="55.140625" y="63.675781" />
+        </g>
+        <g>
+          <text x="42.5623" y="72.4247" class="subCharacteristics">Other</text>
+          <rect class="box high" x="55.140625" y="68.722656" />
+        </g>
+      </g>
+      <g>
+        <rect class="row medium" x="147.589844" y="55.402344" width="59.707031" />
+        <rect class="row low" x="136.601562" y="55.402344" width="10.988282" />
+        <rect class="row high" x="207.296875" y="55.402344" width="9.203125" />
+      </g>
+    </g>
+    <g>
+      <text x="86.1141" y="89.0193" class="characteristics">Market Cap</text>
+      <line class="seperator" x1="-0.0019" y1="0.00069375" x2="75.298881" y2="0.00069375" transform="translate(60.9394,95.3796) scale(1,-1)"/>
+      <g>
+        <g>
+          <text x="42.2608" y="81.9247" class="subCharacteristics">Large</text>
+          <rect class="box low"  x="55.140625" y="78.457031" />
+        </g>
+        <g>
+          <text x="37.0903" y="86.9247" class="subCharacteristics">Medium</text>
+          <rect class="box medium" x="55.140625" y="83.503906" />
+        </g>
+        <g>
+          <text x="42.1258" y="91.9247" class="subCharacteristics">Small</text>
+          <rect class="box high"  x="55.140625" y="88.550781" />
+        </g>
+      </g>
+      <g>
+        <rect class="row medium" x="188.449219" y="75.371094" width="23.140625" />
+        <rect class="row low" x="136.601562" y="75.371094" width="51.847657" />
+        <rect class="row high" x="211.589844" y="75.371094" width="4.914062" />
+      </g>
+    </g>
+    <g>
+      <text x="75.6741" y="108.8693" class="characteristics">Sector Weight</text>
+      <line class="seperator" x1="-0.0019" y1="0.00056875" x2="75.298881" y2="0.00056875" transform="translate(60.9394,115.3951) scale(1,-1)"/>
+      <g>
+        <g>
+          <text x="33.1528" y="101.6447" class="subCharacteristics">Defensive</text>
+          <rect class="box low" x="55.140625" y="98.285156" />
+        </g>
+        <g>
+          <text x="34.5028" y="106.6447" class="subCharacteristics">Sensitive</text>
+          <rect class="box medium" x="55.140625" y="103.332031" />
+        </g>
+        <g>
+          <text x="37.3018" y="111.6447" class="subCharacteristics">Cyclical</text>
+          <rect class="box high" x="55.140625" y="108.378906" />
+        </g>
+      </g>
+      <g>
+        <rect class="row medium" x="156.53125" y="95.339844" width="38.203125" />
+        <rect class="row low" x="136.601562" y="95.339844" width="19.929688" />
+        <rect class="row high" x="194.734375" y="95.339844" width="21.769531" />
+      </g>
+    </g>
+    <g>
+      <text x="74.0541" y="128.7193" class="characteristics">World Regions</text>
+      <g>
+        <g>
+          <text x="34.2148" y="121.2047" class="subCharacteristics">Americas</text>
+          <rect class="box low" x="55.140625" y="118.113281" />
+        </g>
+        <g>
+          <text x="23.1718" y="126.2047" class="subCharacteristics">Greater Europe</text>
+          <rect class="box medium" x="55.140625" y="123.160156" />
+        </g>
+        <g>
+          <text x="28.4413" y="131.2047" class="subCharacteristics">Greater Asia</text>
+          <rect class="box high" x="55.140625" y="128.207031" />
+        </g>
+      </g>
+      <g>
+        <rect x="153.078125" y="115.308594" class="row medium" width="10.992187" />
+        <rect x="136.703125" y="115.308594" class="row low" width="16.375000" />
+        <rect x="164.070312" y="115.308594" class="row high" width="52.531250" />
+      </g>
+    </g>
+  </g>
+  <g>
+    <text x="228.4998" y="44.7904" class="heading">Result</text>
+    <g>
+      <text x="242.0166" y="140" class="resultLabel">Performance</text>
+      <rect class="column" x="228.5" y="75.371094" height="60.132812" />
+    </g>
+    <g>
+      <text x="261.9866" y="140" class="resultLabel">Value, Growth</text>
+      <rect class="column" x="248.46875" y="90.757812" height="44.746094" />
+    </g>
+    <g>
+      <text x="281.9566" y="140" class="resultLabel">Risk</text>
+      <rect class="column" x="268.4375" y="71.460938" height="64.042968" />
+    </g>
+    <g>
+      <text x="301.9266" y="140" class="resultLabel">Ratings</text>
+      <rect class="column" x="288.40625" y="63.167969" height="72.335937" />
+    </g>
+    <g id="categoryAverage">
+      <line class="categoryAverageLine" x1="0.0003" y1="0.00138125" x2="80.0003" y2="0.00138125" transform="translate(228.4997,95.9506) scale(1,-1)"/>
+      <line class="categoryAverageHyphen" x1="-0.001" y1="0.00138125" x2="3.073219" y2="0.00138125" transform="translate(310.251,95.9506) scale(1,-1)"/>
+      <g>
+        <text x="314.771" y="94.4618" class="categoryAverageLabel">Category</text>
+        <text x="314.771" y="101.4618" class="categoryAverageLabel">Average</text>
+      </g>
+    </g>
+  </g>
+
+  <use xlink:href="#surface16" transform="matrix(1,0,0,1,136,55)" mask="url(#mask3)"/>
+  <use xlink:href="#surface24" transform="matrix(1,0,0,1,228,55)" mask="url(#mask7)"/>
+</g>
+</svg>
