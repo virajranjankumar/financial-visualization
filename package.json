@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "webpack-dev-server --progress",
-    "build": "webpack", 
+    "build": "webpack",
     "prod": "webpack -p"
   },
   "license": "MIT",
