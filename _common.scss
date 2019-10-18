@@ -1,5 +1,9 @@
 @import "./variables";
 @import "@material/fab/mdc-fab";
+@import "@material/list/mdc-list";
+@import "@material/drawer/mdc-drawer";
+@import "@material/elevation/mdc-elevation";
+@import "@material/ripple/mixins";
 
 html, body {
   height: 100%;
@@ -21,5 +25,76 @@ body {
    .app-fab--absolute {
     bottom: 1.5rem;
     right: 1.5rem;
+  }
+}
+
+.home {
+  display: flex; // Flexbox is used to easily arrange the persistent drawer and content side-by-side
+}
+
+.shrine-logo-drawer {
+  display: block;
+  width: 48px;
+  padding: 40px 0 0;
+  margin: 0 auto;
+  fill: currentColor;
+}
+
+.shrine-title {
+  @include mdc-typography(headline6);
+
+  text-align: center;
+  margin: 5px auto;
+}
+
+
+.shrine-drawer {
+  @include mdc-drawer-fill-color-accessible(primary);
+  // Drawer defaults to a higher z-index, but we aren't overlaying it over anything
+  @include mdc-drawer-z-index(0);
+
+  text-transform: uppercase;
+
+  .mdc-list {
+    margin: 10px 5px auto 5px;
+  }
+
+  .mdc-list-item {
+    border-radius: 6px;
+    justify-content: center;
+  }
+
+  // This needs 3-class specificity to override MDC Drawer styles
+  .mdc-list .mdc-list-item {
+    @include mdc-states-activated(#fff);
+  }
+}
+
+.shrine-select-item-divider {
+  display: block;
+  border-bottom-color: #EAA4A4;
+  border-bottom-width: 2px;
+  width: 50px;
+  position: relative;
+  top: -8px;
+}
+
+// This needs 2-class specificity to override MDC Drawer styles
+.shrine-drawer .shrine-select-item-divider {
+  margin: 0 auto;
+}
+
+.shrine-body {
+  @include mdc-elevation(4);
+
+  display: block;
+  overflow: auto;
+  z-index: 0; // Elevate over the drawer
+}
+
+@media(max-width: 768px) {
+  .shrine-drawer {
+      display: none;
+      background-color: green;
   }
 }
